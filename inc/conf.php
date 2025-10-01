@@ -1,11 +1,11 @@
 <?php
 // Үндсэн тохиргоо
-const DOMAIN = 'https://khancredit.mn/';
+const DOMAIN = 'http://college.web/';
 
 // Өгөгдлийн сангийн мэдээлэл
 const DB_HOST = 'localhost';
-const DB_NAME = 'lekeowlo_credit';
-const DB_USER = 'lekeowlo_credit';
-const DB_PASSWORD = '1*1r~YLhvBFu';
+const DB_NAME = 'collegeweb';
+const DB_USER = 'root';
+const DB_PASSWORD = '';
 $urlFileManager = DOMAIN . '/adminpanel/flmngr';
 $urlFiles = DOMAIN . '/images/uploads';

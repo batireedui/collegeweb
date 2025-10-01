@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '6d7540c87994104f6c49616ea52958432855c066',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '6d7540c87994104f6c49616ea52958432855c066',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ausi/slug-generator' => array(
+            'pretty_version' => 'v1.1.1',
+            'version' => '1.1.1.0',
+            'reference' => '4e761b08966c5d4aeecc1829ac997e5a5a29d231',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ausi/slug-generator',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'edsdk/flmngr-server-php' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'reference' => '5ea8b73b74ebcbc79323727cc780c6bdfd75152e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../edsdk/flmngr-server-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

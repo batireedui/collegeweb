@@ -4,7 +4,7 @@ session_start();
 //$_SESSION['user_id'] = 1;
 
 date_default_timezone_set('Asia/Ulaanbaatar');
-ini_set('display_errors', 0);
+ini_set('display_errors', 1);
 define('ROOT', dirname(dirname(__FILE__)));
 
 require ROOT . '/vendor/autoload.php';
