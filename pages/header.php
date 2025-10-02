@@ -170,7 +170,7 @@ if ($metaPost == true) {
                         } ?>
                         <div class="nav-btn px-3">
                             <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> ЗЭЭЛИЙН ХҮСЭЛТ</a>
+                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> САНАЛ ХҮСЭЛТ</a>
                         </div>
                     </div>
                 </div>

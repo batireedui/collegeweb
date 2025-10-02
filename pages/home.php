@@ -12,8 +12,8 @@ require ROOT . "/pages/header.php"; ?>
                     <div class="col-lg-7 animated fadeInLeft">
                         <div class="text-sm-center text-md-start">
                             <h4 class="text-white text-uppercase fw-bold mb-4">Бидний</h4>
-                            <h1 class="display-1 text-white mb-4">ЭРХЭМ ЗОРИЛГО </h1>
-                            <p class="mb-5 fs-5">Санхүүгийн зах зээлийн хөгжилд хувь нэмэр оруулж, санхүүгийн цогц үйлчилгээ мэргэжлийн түвшинд шуурхай хүргэдэг, хялбар хөрөнгө оруулагч, нэр хүндтэй, найдвартай, тэргүүлэгч санхүүгийн байгууллага байх. </p>
+                            <h1 class="display-1 text-white mb-4">АЛСЫН ХАРАА </h1>
+                            <p class="mb-5 fs-5">Олон улсын жишигт нийцсэн, үндэсний тэргүүлэгч сургалт, үйлдвэрлэлийн байгууллага болох </p>
                             <!--
                             <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                                 <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
@@ -43,8 +43,8 @@ require ROOT . "/pages/header.php"; ?>
                     <div class="col-lg-7 animated fadeInRight">
                         <div class="text-sm-center text-md-end">
                             <h4 class="text-white text-uppercase fw-bold mb-4">Бидний</h4>
-                            <h1 class="display-1 text-white mb-4">ЗОРИЛГО</h1>
-                            <p class="mb-5 fs-5">Орон нутгийн онцлогт нийцсэн санхүүгийн үйлчилгээг хүргэж, тогтвортой үйл ажиллагаа явуулан, зах зээл дээр бий болж болзошгүй эрсдэлээс урьдчилан сэргийлж, байгууллагын үр ашгийг нэмэгдүүлэх 
+                            <h1 class="display-1 text-white mb-4">ЭРХЭМ ЗОРИЛГО</h1>
+                            <p class="mb-5 fs-5">Бид хөдөлмөрийн зах зээлийн эрэлтэд нийцсэн, өрсөлдөх чадвартай, мэргэжлийн өндөр ёс зүй ур чадвар бүхий үндэсний мэргэжилтэй ажилтанг бэлтгэнэ. 
                             </p>
                             <!--
                             <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">

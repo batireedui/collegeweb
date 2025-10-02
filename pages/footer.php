@@ -49,7 +49,7 @@
 
                                             <div>
                                                 <h4 class="text-white" style="font-family: 'Roboto Condensed'">Facebook</h4>
-                                                <p class="text-white mb-0">Khaan Kredit Bbsb UV</p>
+                                                <p class="text-white mb-0">Өвөрхангай аймаг дахь Политехник Коллеж</p>
                                             </div>
                                         </div>
                                     </a>
@@ -72,7 +72,7 @@
                 <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i><?= $webname ?></a>, Бүх эрх хуулиар хамгаалагдсан 2024.</span>
             </div>
             <div class="col-md-6 text-center text-md-start text-body">
-                Хөгжүүлсэн <a class="border-bottom text-white" href="#">Devsoft LLC</a>
+                Хөгжүүлсэн <a class="border-bottom text-white" href="#"><?= $webname ?></a>
             </div>
         </div>
     </div>

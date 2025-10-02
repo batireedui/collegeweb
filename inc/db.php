@@ -11,7 +11,7 @@ if (mysqli_connect_errno() === 1049) {
 } elseif (mysqli_connect_errno()) {
     die('Алдаа гарлаа : ' . mysqli_connect_error());
 }
-$con -> set_charset("utf8");
+$con -> set_charset("utf8mb4");
 function _select(&$stmt, &$count, $sql, $types, $sqlParams, &...$bindParams)
 {
     global $con;
