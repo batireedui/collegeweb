@@ -63,7 +63,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/adminpanel/feedback">Зээлийн хүсэлт
+                                <a class="nav-link" href="/adminpanel/feedback">Санал хүсэлт
                                     <?php
                                     _selectRowNoParam(
                                         "SELECT count(id) FROM `feedback` WHERE unsh is null",
