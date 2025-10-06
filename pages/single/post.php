@@ -41,6 +41,7 @@ if ($slug != "0") { ?>
                         <div class="about-item-content bg-white rounded p-5 h-100">
                             <!--<h4 class="text-primary">About Our Company</h4>
                             <h1 class="display-4 mb-4"><?=$pname?></h1>-->
+                            <img src="<?=$pimage?>" alt="<?=$pname?>" class="img-fluid mb-4 w-100">
                             <p><?=$pbody?></p>
                         </div>
                     </div>

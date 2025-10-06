@@ -70,8 +70,7 @@ if ($slug != "0") { ?>
                             <div class="blog-comment d-flex justify-content-between mb-3">
                                 <div class="small"><span class="fa fa-calendar text-primary"></span><?=$ognoo?></div>
                             </div>
-                            <a href="#" class="h4 d-inline-block mb-3"><?=$name?></a>
-                            <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta impedit eligendi? Quibusdam, laudantium.</p>
+                            <span class="h4 d-inline-block mb-3"><?=$name?></span>
                             <a href="/single/post?c=<?=$postsslug?>&t=0" class="btn p-0">Дэлгэрэнгүй <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>

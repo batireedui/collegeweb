@@ -13,7 +13,7 @@ require ROOT . "/pages/header.php"; ?>
                         <div class="text-sm-center text-md-start">
                             <h4 class="text-white text-uppercase fw-bold mb-4">Бидний</h4>
                             <h1 class="display-1 text-white mb-4">АЛСЫН ХАРАА </h1>
-                            <p class="mb-5 fs-5">Олон улсын жишигт нийцсэн, үндэсний тэргүүлэгч сургалт, үйлдвэрлэлийн байгууллага болох </p>
+                            <p class="mb-1 fs-3">Олон улсын жишигт нийцсэн, үндэсний тэргүүлэгч сургалт, үйлдвэрлэлийн байгууллага болох </p>
                             <!--
                             <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                                 <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
@@ -44,7 +44,7 @@ require ROOT . "/pages/header.php"; ?>
                         <div class="text-sm-center text-md-end">
                             <h4 class="text-white text-uppercase fw-bold mb-4">Бидний</h4>
                             <h1 class="display-1 text-white mb-4">ЭРХЭМ ЗОРИЛГО</h1>
-                            <p class="mb-5 fs-5">Бид хөдөлмөрийн зах зээлийн эрэлтэд нийцсэн, өрсөлдөх чадвартай, мэргэжлийн өндөр ёс зүй ур чадвар бүхий үндэсний мэргэжилтэй ажилтанг бэлтгэнэ.
+                            <p class="mb-1 fs-3">Бид хөдөлмөрийн зах зээлийн эрэлтэд нийцсэн, өрсөлдөх чадвартай, мэргэжлийн өндөр ёс зүй ур чадвар бүхий үндэсний мэргэжилтэй ажилтанг бэлтгэнэ.
                             </p>
                             <!--
                             <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
@@ -65,8 +65,7 @@ require ROOT . "/pages/header.php"; ?>
 <div class="container-fluid service py-5">
     <div class="container py-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h4 class="text-primary">БИДНИЙ ҮЙЛЧИЛГЭЭ</h4>
-            <h1 class="display-4 mb-4">ЗЭЭЛИЙН БҮТЭЭГДЭХҮҮН</h1>
+            <h1 class="display-4 mb-4">СУРГАЛТ</h1>
             <p class="mb-0">Бид дараах зээлийн бүтээгдэхүүн үйлчилгээг санал болгож байна.</p>
         </div>
         <div class="row g-4 justify-content-center">
@@ -103,15 +102,7 @@ require ROOT . "/pages/header.php"; ?>
                     </div>
                 </div>
             <?php }
-
-            _selectRowNoParam(
-                "SELECT slug FROM category WHERE id='3'",
-                $cslug
-            );
             ?>
-            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                <a class="btn btn-primary rounded-pill py-3 px-5" href="/single/category?c=<?= $cslug ?>&t=1">Бусад зээлийн бүтээгдэхүүн</a>
-            </div>
         </div>
     </div>
 </div>
@@ -174,10 +165,9 @@ require ROOT . "/pages/header.php"; ?>
             _selectNoParam(
                 $st,
                 $cc,
-                "SELECT posts.id, posts.name$lang, posts.body$lang, posts.image, posts.ognoo, slug FROM posts INNER JOIN post_cate ON posts.id = post_cate.post_id WHERE post_cate.cate_id='4' LIMIT 3",
+                "SELECT posts.id, posts.name$lang, posts.image, posts.ognoo, slug FROM posts INNER JOIN post_cate ON posts.id = post_cate.post_id WHERE post_cate.cate_id='4' LIMIT 3",
                 $pid,
                 $pname,
-                $pbody,
                 $pimage,
                 $pognoo,
                 $slug
@@ -201,9 +191,7 @@ require ROOT . "/pages/header.php"; ?>
                                 <div class="blog-comment d-flex justify-content-between mb-3">
                                     <div class="small"><span class="fa fa-calendar text-primary"></span> <?= _format_date($pognoo) ?></div>
                                 </div>
-                                <a href="#" class="h4 d-inline-block mb-3"><?= $pname ?></a>
-                                <p class="mb-3"><?= mb_substr($pbody, 0, 100, 'UTF-8') ?></p>
-                                Дэлгэрэнгүй <i class="fa fa-arrow-right"></i>
+                                <span class="h4 d-inline-block mb-3"><?= $pname ?></span>
                             </div>
                         </div>
                     </a>
